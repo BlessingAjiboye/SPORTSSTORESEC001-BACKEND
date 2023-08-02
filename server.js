@@ -106,7 +106,8 @@ db.mongoose
 
 var corsOptions = {
 
- origin: ["http://localhost:8081"],  
+  //origin: ["http://localhost:8081"], 
+ origin: ["https://main--visionary-kangaroo-8ec88e.netlify.app/home"], 
 credentials: true
 
 
